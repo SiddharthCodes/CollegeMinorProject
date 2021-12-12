@@ -1,0 +1,147 @@
+body{
+    margin: 0px;
+    text-align: center;
+    font-family: 'Merriweather',serif;
+    background-color: rgb(255, 244, 227);
+    
+}
+
+h1{
+    color: #66BFBF;
+    font-size: 5.625rem;
+    margin: 0px auto 0px auto;
+   font-family: 'Sacramento',cursive;
+}
+
+h2{
+    color: #66BFBF;
+    font-size: 2.3rem;
+    margin-top: 0px;
+    font-family: 'Montserrat',san-serif;
+}
+h3{
+    color: #66BFBF;
+    font-family: 'Montserrat',san-serif;
+}
+
+#topCloud{
+    position: absolute;
+    right: 200px;
+    top: 40px;
+}
+
+#bottomCloud{
+    position: absolute;
+    left: 200px;
+    bottom: 300px;
+}
+
+#hills{
+    position: relative;
+    bottom: 0px;
+    height: 30%;
+    width: 40%;
+}
+
+.topContainer{
+        position: relative;
+        padding-top: 100px;
+        text-align: center;
+        background-color: #E4F9F5;
+    
+        color: #461111;
+        
+
+
+    }
+.middleContainer{
+    margin: 100px;
+}
+.bottomContainer{
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+    padding: 50px 0 28px;
+}
+
+#myimage{
+    
+    height: 180px;
+    width: 180px;
+}
+
+.profile{
+    text-align: center;
+    display: block;
+    margin: 100px auto 50px auto;
+}
+.intro{
+    width: 50%;
+    margin: auto;
+    text-align: left;
+}
+hr{
+    border-style: dotted none none;
+    width: 4%;
+    border-width: 8px;
+    border-color: #747474 ;
+}
+.skills{
+    text-align: center;
+    display: block;
+    width: 50%;
+    margin: 50px auto 50px auto;
+}
+.skill-row{
+    text-align: left;
+    display: block;
+    margin: auto;
+    
+}
+.skill-img{
+    display: block;
+    margin: auto;
+    height: 180px;
+    width: 180px;
+}
+.contact-me{
+    text-align: center;
+    display: block;
+    width: 50%;
+    margin: 50px auto 50px auto;
+}
+.contactmsg{
+    width: 40%;
+    margin: 40px auto 60px;
+}
+#copyright{
+    color: #11999e ;
+}
+.btn {
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    margin: 40px auto;
+    font-family: 'Montserrat',san-serif;
+    color: #ffffff;
+    font-size: 17px;
+    background: #000000;
+    padding: 11px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #737373;
+    text-decoration: none;
+    
+  }
+
+.footer-link{
+    color: #11999e ;
+    font-family: 'Montserrat',san-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+.footer-link:hover{
+    color: rgb(255, 244, 227);
+    text-decoration: none;
+}
